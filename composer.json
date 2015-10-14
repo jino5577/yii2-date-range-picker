@@ -1,0 +1,23 @@
+{
+  "name": "jino5577/yii2-date-range-picker",
+  "description": "Yii 2 date range picker input based on Dan Grossman daterangepicker plugin.",
+  "keywords": ["yii2", "extension", "widget", "date-range", "time", "date", "range", "bootstrap", "bootstrap 3"],
+  "homepage": "https://github.com/jino5577/yii2-date-range-picker",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dmitrij Butko",
+      "email": "jino5577@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "bower-asset/bootstrap-daterangepicker": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "jino5577\\daterangepicker\\": ""
+    }
+  }
+}
