@@ -11,6 +11,7 @@
       "email": "jino5577@gmail.com"
     }
   ],
+  "minimum-stability": "stable",
   "require": {
     "bower-asset/bootstrap-daterangepicker": "@stable"
   },
