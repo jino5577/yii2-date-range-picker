@@ -57,12 +57,14 @@ echo DateRangePicker::widget([
     'options' => [
         /* ... */
     ],
-    //  Optional. widget template, default is `{input}`. 
-    //The special tag `{input}` will be replaced with the form input. 
+    // Optional. widget template, default is `{input}`. 
+    // The special tag `{input}` will be replaced with the form input. 
     'template' => '
         <div class="input-group">
-          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-          {input}
+            <span class="input-group-addon">
+                <span class="glyphicon glyphicon-calendar"></span>
+             </span>
+            {input}
         </div>
     '
     ],
