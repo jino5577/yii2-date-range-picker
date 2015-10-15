@@ -38,17 +38,32 @@ use jino5577\daterangepicker\DateRangePicker;
 echo DateRangePicker::widget([
     'model'     => $model,
     'attribute' => 'dateRange',
+    
+    /* Optional. Used for calendar localisation. IF `null` (default), default moment.js language will be used. */
     'locale'    => 'ru-RU';
-    'pluginOptions'=>[
-        /* ... plugin options here ... */
+    /* Daterange plugin options. Default `null`.*/
+    'pluginOptions' => [
+        /* ... */
         'autoUpdateInput' => false,
     ],
-    /* if maskOptions is set, MaskedInput wil be used instead of TextInput */
+    /* Optional. If maskOptions is set, MaskedInput wil be used instead of TextInput. Default `null`. */ 
     'maskOptions' => [
         'mask' => '99/99/9999 - 99/99/9999',
     ],
-
-    
+    /* Optional. Input control options, default is `['class' => 'form-control']` */
+    'options' => [
+        /* ... */
+    ],
+    /* Optional. widget template, default is `{input}`. The special tag `{input}` will be replaced with the form input. */
+    'template' => '
+        <div class="input-group">
+          <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+          {input}
+        </div>
+    '
+    ],
+    /* Optional. Javascript callback to be passed to the plugin constructor. Bty default, updates the input and triggers `change` event. */
+    'callback' => 'function() { /* ... */ }';   
 ]);
 ```
 
