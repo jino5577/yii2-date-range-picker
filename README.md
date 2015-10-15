@@ -70,7 +70,7 @@ echo DateRangePicker::widget([
     '
     ],
     // Optional. Javascript callback to be passed to the 
-    // plugin constructor. Bty default, updates the input 
+    // plugin constructor. By default, updates the input 
     // and triggers `change` event.
     'callback' => 'function() { /* ... */ }';   
 ]);
