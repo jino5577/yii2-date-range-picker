@@ -43,6 +43,7 @@ echo DateRangePicker::widget([
     // IF `null` (default), default moment.js language will be used.
     'locale'    => 'ru-RU';
     // Daterange plugin options. Default is `null`.
+    // See http://www.daterangepicker.com/#options
     'pluginOptions' => [
         /* ... */
         'autoUpdateInput' => false,
