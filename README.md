@@ -39,7 +39,7 @@ echo DateRangePicker::widget([
     'model'     => $model,
     'attribute' => 'dateRange',
     
-    // Optional. Used for calendar localisation. 
+    // Optional. Used for calendar localization. 
     // IF `null` (default), default moment.js language will be used.
     'locale'    => 'ru-RU';
     // Daterange plugin options. Default is `null`.
