@@ -8,7 +8,7 @@ Features:
 * Since version 2.0.8 [daterangepicker](http://www.daterangepicker.com/) plugin can accept empty initial values.
 To do this, set plugin option ```autoUpdateUnput``` to ```false``` and use default ```callback``` option. 
 See [https://github.com/dangrossman/bootstrap-daterangepicker/issues/815](https://github.com/dangrossman/bootstrap-daterangepicker/issues/815)
-for details
+for details.
 
 
 ## Installation
@@ -54,7 +54,7 @@ echo DateRangePicker::widget([
         'mask' => '99/99/9999 - 99/99/9999',
     ],
     // Optional. Input control options, 
-    // default is `['class' => 'form-control']`
+    // default is `['class' => 'form-control']`.
     'options' => [
         /* ... */
     ],
