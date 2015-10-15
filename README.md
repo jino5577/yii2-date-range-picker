@@ -54,4 +54,4 @@ echo DateRangePicker::widget([
 
 ## License
 
-BSD 3-Clause License. Please see [License File](LICENSE.md) for more information.
+BSD 3-Clause License. Please see bundled `LICENSE.md` file for more information.
